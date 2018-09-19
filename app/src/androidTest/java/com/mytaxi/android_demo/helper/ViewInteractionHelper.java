@@ -83,7 +83,7 @@ public class ViewInteractionHelper {
      * @return view interaction to perform the desired operation on it : click, check... etc
      */
     
-    public ViewInteraction getChildAtPosition(String firstIdentifier,String secondIdentifier,int firstPosition,int secondPosition, String className) {
+    public ViewInteraction getChildAtPosition(String firstIdentifier, String secondIdentifier, int firstPosition, int secondPosition, String className) {
 
         try {
             Field field = R.id.class.getField(firstIdentifier);
