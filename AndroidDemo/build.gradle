@@ -22,6 +22,11 @@ allprojects {
     }
 }
 
+task hello {
+    doLast {
+        println "hello eyad"
+    }
+}
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
