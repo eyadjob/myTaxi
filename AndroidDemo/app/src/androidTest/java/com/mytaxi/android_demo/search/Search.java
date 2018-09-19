@@ -10,6 +10,7 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
 import com.mytaxi.android_demo.activities.MainActivity;
+
 import com.mytaxi.android_demo.helper.ViewInteractionHelper;
 import com.mytaxi.android_demo.search.login.Login;
 

@@ -41,7 +41,7 @@ public class Login {
         ViewInteractionHelper viewInteractionHelper = new ViewInteractionHelper();
 
 
-        viewInteractionHelper.sleep(2000);
+        viewInteractionHelper.sleep(3000);
 
         viewInteractionHelper.clickView("id", "edt_username");
         viewInteractionHelper.replaceText("id", "edt_username", "crazydog335");
@@ -49,6 +49,7 @@ public class Login {
         viewInteractionHelper.replaceText("id", "edt_password", "venture");
         viewInteractionHelper.clickView("id", "btn_login");
 
+        viewInteractionHelper.sleep(1000);
         viewInteractionHelper.drawerOpen("id", "drawer_layout");
         viewInteractionHelper.clickView("text", "Logout");
 

@@ -17,8 +17,7 @@ import org.junit.runner.RunWith;
  * This is Login automated testing class for myTaxi App
  * @author eyadm@amaozn.com
  */
-@LargeTest
-@RunWith(AndroidJUnit4.class)
+
 public class Login {
 
 
@@ -35,13 +34,13 @@ public class Login {
      * -check that search field is present
      *
      */
-    @Test
+
     public void login_ValidUser() {
 
         ViewInteractionHelper viewInteractionHelper = new ViewInteractionHelper();
 
 
-        viewInteractionHelper.sleep(2000);
+        viewInteractionHelper.sleep(3000);
 
         viewInteractionHelper.clickView("id", "edt_username");
         viewInteractionHelper.replaceText("id", "edt_username", "crazydog335");

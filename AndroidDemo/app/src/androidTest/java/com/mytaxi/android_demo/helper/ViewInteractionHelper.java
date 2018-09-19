@@ -40,8 +40,7 @@ import static org.hamcrest.Matchers.is;
  * it use java reflection to substitute the passed params in some of it methods
  * @author eyadm@amazon.com
  */
-@LargeTest
-@RunWith(AndroidJUnit4.class)
+
 public class ViewInteractionHelper {
 
     @Rule
